@@ -1,0 +1,95 @@
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1030;
+  width: 100%;
+  background-color: #2a3742;
+  border-bottom: 1px solid #1d262e;
+}
+
+.brand {
+  padding: 10px 0px 10px 30px;
+}
+
+.brand .logo {
+  width: 210px;
+  height: 40px;
+}
+
+.brand .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  background-color: #2a3742;
+  min-height: 60px;
+  margin-left: 10px;
+}
+
+.nav-toggle {
+  padding: 9px 10px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-toggle .icon-bar {
+  display: block;
+  margin-bottom: 5px;
+  background-color: #FFF;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.nav-toggle .icon-bar:last-of-type {
+  margin-bottom: 0;
+}
+
+.lang-list {
+  padding-top: 20px;
+  margin-right: 15px;
+}
+
+.lang-list .lang-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.lang-list .lang-item a {
+  display: block;
+  width: 25px;
+  height: 19px;
+}
+
+.lang-list .lang-item a img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-list {
+  background-color: #2a3742;
+  border-color: #1d262e;
+}
+
+.nav-item {
+  float: left;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 10px;
+  line-height: 22px;
+  color: #FFF;
+}
+
+.nav-link:hover {
+  color: #009adf;
+}

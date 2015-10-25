@@ -1,0 +1,101 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 910px) {
+	.nav-list{
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-top: 60px;
+		padding: 10px 0;
+		width: 100%;
+		max-height: 340px;
+		overflow-y: auto;
+		z-index: 1030;
+		display: none;
+	}
+	.nav-item{
+		float: none;
+	}
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+h1, .h1{
+		font-size: 46px;
+	}
+	.footer-nav{
+		font-size: 13px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+}
+@media only screen and (min-width : 911px) {
+	.row-dh-4, 
+	.section-dh-main {
+		min-height: 520px;
+	}
+	.row-dh-2, 
+	.section-banner {
+		min-height: 260px;
+	}
+	.nav-link{
+    padding-top: 19px;
+    padding-bottom: 19px;
+	}
+	.nav-toggle{
+		display: none;
+	}
+	.nav-list{
+		display: block !important;
+	}
+}	
+	
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	
+}
+@media (max-width: 1200px) and (min-width: 910px){
+.homepage .banner {
+    background-position: center;
+}
+}

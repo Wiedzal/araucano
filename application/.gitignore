@@ -1,0 +1,12 @@
+protected/config/database.php
+
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+protected/tests/*
+protected/vendor/*
+ckfinder/*
+upload/*
+themes/classic/views/

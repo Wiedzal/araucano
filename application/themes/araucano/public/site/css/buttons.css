@@ -1,0 +1,73 @@
+/*Buttons*/
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.42857143;
+  padding: 9px 12px;
+  color: #FFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.2s ease-in 0s;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 300;
+}
+
+.btn-icon {
+  padding: 0 12px;
+}
+
+.btn-big {
+  height: 50px;
+}
+
+.btn-small {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.btn-default {
+  background-color: #4c4c4c;
+  border-color: #3f3f3f;
+}
+
+.btn-default:hover {
+  background-color: #1C1C1C;
+}
+
+.btn-default:active {
+  background-image: none;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-orange {
+  background-color: #ffe43f;
+  border-color: #FF981D;
+  color: #000;
+}
+
+.btn-orange:hover {
+  background-color: #ffda09;
+}
+
+.btn-orange:active {
+  background-image: none;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-blue {
+  background-color: #009adf;
+  border-color: #0884A5;
+}
+
+.btn-blue:hover {
+  background-color: #007db3;
+}
+
+.btn-blue:active {
+  outline: 0;
+  background-image: none;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}

@@ -1,0 +1,25 @@
+/*Table*/
+.table {
+  width: 100%;
+  -webkit-border-radius: 10px;
+  -webkit-border-radius-border-radius: 10px;
+}
+
+.table th,
+.table td {
+  padding: 15px 10px;
+}
+
+.table th {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table td:first-child {
+  text-align: left;
+}

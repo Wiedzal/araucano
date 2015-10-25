@@ -1,0 +1,82 @@
+/*Modal*/
+.modal-open
+	overflow: hidden
+.modal
+	display: none
+	border-radius: 10px
+	overflow: hidden
+	position: fixed
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	z-index: 1050
+	-webkit-overflow-scrolling: touch
+	outline: 0
+	.modal-in
+		position: relative
+		width: 775px
+		margin: 30px auto
+		padding: 5px
+		border-radius: 10px
+		background: rgba(255, 255, 255, 0.2)
+		-webkit-transition: -webkit-transform .3s ease-out
+		-o-transition:      -o-transform .3s ease-out
+		transition:         transform .3s ease-out
+		-webkit-transform: translate3d(0, -25%, 0)
+		-o-transform: translate3d(0, -25%, 0)
+		transform: translate3d(0, -25%, 0)
+		.modal-content
+			position: relative
+			background-color: #fff
+			-webkit-background-clip: padding-box
+			background-clip: padding-box
+			border-radius: 6px
+			outline: 0
+			padding: 0 30px
+			.modal-header
+				padding: 15px
+				border-bottom: 1px solid #e5e5e5
+				min-height: 16.42857143px
+				.close
+					@extend .alert-close
+			.modal-body
+				position: relative
+				padding: 15px
+			.modal-footer 
+				padding: 15px
+				margin: 0 -30px 0 -30px
+				background-color: #efefef
+				text-align: right
+				border-top: 1px solid #e5e5e5
+				border-radius: 4px 
+				.btn + .btn 
+					margin-left: 10px
+					margin-bottom: 0
+.modal-scrollbar-measure 
+	position: absolute
+	top: -9999px
+	width: 50px
+	height: 50px
+	overflow: scroll
+.modal.fade.in
+	background-color: rgba(0,0,0,0.2)
+.modal-backdrop 
+	position: fixed
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	z-index: 1040
+	background-color: #333
+	transition: all 0.3s ease 0s
+.modal-backdrop.fade 
+	filter: alpha(opacity=0)
+	opacity: 0
+.modal-backdrop.in 
+	filter: alpha(opacity=80)
+	opacity: .8
+.modal.in .modal-in
+	-webkit-transform: translate3d(0, 0, 0)
+	-o-transform: translate3d(0, 0, 0)
+	transform: translate3d(0, 0, 0)

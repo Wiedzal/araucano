@@ -1,0 +1,62 @@
+
+.right
+	float: right
+.left
+	float: left
+.center-block
+	margin-right: auto
+	margin-left: auto
+//grid
+.row::after, .wrapper::after, .clearfix::after, 
+.input-range::after, .tab-actions::after
+	clear: both
+	content: ""
+	display: block
+.row 
+	margin-left: -15px
+	margin-right: -15px
+
+.col-1
+	width: 8.333333%
+.col-2
+	width: 16.666666% 
+.col-3
+	width: 25% 
+.col-4
+	width: 33.333333% 
+.col-5
+	width: 41.666666% 
+.col-6
+	width: 50% 
+.col-7
+	width: 58.33333333% 
+.col-8
+	width: 66.666666% 
+.col-9
+	width: 75% 
+.col-10
+	width: 83.333333% 
+.col-11
+	width: 91.666666% 
+.col-12
+	width: 100%
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12
+	box-sizing: border-box
+	float: left
+	min-height: 1px
+	padding: 0 15px
+//grid			
+$i: 500
+@while $i > 0
+	.mt#{$i}
+		margin-top: 1px * $i !important
+	.mr#{$i}
+		margin-right: 1px * $i !important
+	.mb#{$i}
+		margin-bottom: 1px * $i !important
+	.ml#{$i}
+		margin-left: 1px * $i !important
+	.w#{$i}
+		width: 1px * $i !important
+	$i: $i - 5

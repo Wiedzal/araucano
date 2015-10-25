@@ -1,0 +1,39 @@
+@import "bourbon/bourbon"	
+/// Mixin to prefix a property
+/// @author Hugo Giraudel
+/// @param {String} $property - Property name
+/// @param {*} $value - Property value
+/// @param {List} $prefixes (()) - List of prefixes to print
+@mixin prefix($property, $value, $prefixes: ())
+	@each $prefix in $prefixes
+		#{'-' + $prefix + '-' + $property}: $value
+ 
+	// Output standard non-prefixed declaration
+	#{$property}: $value
+//mixin цвета ссылок
+@mixin linx ($link, $visit, $hover, $active)
+	color: $link
+	&:visited 
+		color: $visit
+	&:hover 
+		color: $hover
+	&:active 
+		color: $active
+//mixin кастомного скроллбара       
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%))
+	::-webkit-scrollbar
+		width:  $size
+			height: $size
+
+	::-webkit-scrollbar-thumb 
+		background: $foreground-color
+
+	::-webkit-scrollbar-track
+		background: $background-color
+
+//For Internet Explorer
+	body
+		scrollbar-face-color: $foreground-color
+		scrollbar-track-color: $background-color
+	@include scrollbars(.5em, slategray)
+//переменные и миксины
