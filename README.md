@@ -1,0 +1,2 @@
+# araucano
+Internationalization project
