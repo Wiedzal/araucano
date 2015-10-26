@@ -1255,7 +1255,7 @@ a.cke_button:hover,
 
 .flag-smaller {
 	width: 20px;
-	height: 10px;
+	height: 13px;
 }
 
 .flag-small._ru {background: url('../img/flags/ru.png') no-repeat;}
@@ -1263,8 +1263,8 @@ a.cke_button:hover,
 .flag-small._en {background: url('../img/flags/en.png') no-repeat;}
 
 .flag-smaller._ru {background: url('../img/flags/ru_smaller.png') no-repeat;}
+.flag-smaller._es {background: url('../img/flags/es_smaller.png') no-repeat;}
 .flag-smaller._en {background: url('../img/flags/en_smaller.png') no-repeat;}
-.flag-smaller._by {background: url('../img/flags/by_smaller.png') no-repeat;}
 
 /* accordeon */
 

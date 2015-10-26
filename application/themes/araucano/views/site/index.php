@@ -24,11 +24,5 @@
 </div>
 
 <? foreach($page->contents as $content) : ?>
-    <div class="container-fluid">
-        <div class="row content">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
-                <?=$content->lang->text?>
-            </div>
-        </div>
-    </div>
+    <?=$content->lang->text?>
 <? endforeach; ?>

@@ -16,9 +16,9 @@
     <table class="table table-hover">
         <thead>
             <tr>
-                <th>Заголовок</th>
-                <th>Título</th>
-                <th>Title</th>
+                <th><i class="flag flag-smaller _ru mr5"></i> Заголовок</th>
+                <th><i class="flag flag-smaller _es mr5"></i> Título</th>
+                <th><i class="flag flag-smaller _en mr5"></i> Title</th>
                 <th class="w150">Действия</th>
             </tr>
         </thead>

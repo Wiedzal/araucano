@@ -43,9 +43,59 @@ $(document).ready(function(){
         $('#addModal').modal('show');
         return false;
     });
+    
+    $('.ajax-btn').click(function(event) {
+        event.preventDefault();
+
+        var alias = $('#Contents_alias').val();
+        if(!alias)
+        {
+            $('#Contents_alias').next(".form-error").html("Поле обязательно для заполнения");
+            return false;
+        }
+        
+        var page_id = $('#Pages_id').val();
+        
+        $.ajax({
+            type  : "POST",
+            url   : '/admin/pages/default/addContent',
+            data  : {
+                YII_CSRF_TOKEN : globalCsrfToken,
+                page_id : page_id,
+                alias : $('#Contents_alias').val(),
+                text : CKEDITOR.instances.ContentsLang_text.getData(),
+            },
+            cashe : false,
+            error : function () {
+                alert('Ошибка запроса. Обновите страницу и попробуйте ещё разз.');
+            },
+            dataType : 'json',
+            success : function(object) {
+
+                if(!jQuery.isEmptyObject(object)) 
+                {
+                    $(".form-error").html("");
+                    $.each(object, function(arrayID,el) {
+                        $("#"+arrayID).next(".form-error").html(el[0]);
+                    });
+                }
+                else 
+                {
+                    location.href = '/admin/pages/default/edit/id/'+page_id;
+                }
+            },
+        });
+    });
+
+    
 });
 
 function onPictureDelete()
+{
+    $('#create-pages-form').off();
+}
+
+function onDeleteContent()
 {
     $('#create-pages-form').off();
 }

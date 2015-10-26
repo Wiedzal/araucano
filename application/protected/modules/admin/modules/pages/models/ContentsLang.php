@@ -61,7 +61,7 @@ class ContentsLang extends ActiveRecord
 			'id' => 'ID',
 			'lang' => 'Lang',
 			'content_id' => 'Content',
-			'text' => 'Text',
+			'text' => 'Текст',
 			'created_at' => 'Created At',
 			'created_by' => 'Created By',
 			'modified_at' => 'Modified At',

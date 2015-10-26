@@ -31,12 +31,14 @@ class Contents extends ActiveRecord
 		// will receive user inputs.
 		return array(
 			array('alias', 'required'),
-			array('page_id, created_by, modified_by', 'numerical', 'integerOnly'=>true),
+            array('alias', 'match', 'pattern'=>'/^[a-z\d\/-]{1,}$/i', 'message'=>Yii::t('app', 'Псевдоним содержит недопустимые символы')),
+            array('alias', 'unique', 'message' => 'К сожалению, такой псевдоним занят. Выберите другой.'),
+			array('page_id, is_active, created_by, modified_by', 'numerical', 'integerOnly'=>true),
 			array('alias', 'length', 'max'=>255),
 			array('created_at, modified_at', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, page_id, alias, created_at, created_by, modified_at, modified_by', 'safe', 'on'=>'search'),
+			array('id, page_id, alias, is_active, created_at, created_by, modified_at, modified_by', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -62,8 +64,9 @@ class Contents extends ActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'alias' => 'Alias',
+			'alias' => 'Псевдоним',
 			'page_id' => 'page_id',
+			'is_active' => 'Отображать на сайте',
 			'created_at' => 'Created At',
 			'created_by' => 'Created By',
 			'modified_at' => 'Modified At',
@@ -92,6 +95,7 @@ class Contents extends ActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('alias',$this->alias,true);
 		$criteria->compare('page_id',$this->page_id);
+		$criteria->compare('is_active',$this->is_active);
 		$criteria->compare('created_at',$this->created_at,true);
 		$criteria->compare('created_by',$this->created_by);
 		$criteria->compare('modified_at',$this->modified_at,true);

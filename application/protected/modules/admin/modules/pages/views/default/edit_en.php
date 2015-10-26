@@ -11,7 +11,7 @@
 </div>
 <div class="row form-group">
 	<div class="col-3 form-collabel">
-		Заголовок
+		Заголовок h1
 	</div>
 	<div class="col-9">
 		<?=$form->textField($modelLangEn,'[en]header', array('class' => 'form-input')); ?>
@@ -21,10 +21,31 @@
 	</div>
 </div>
 
+<? if($model->alias == 'home') : ?>
+    <div class="row form-group">
+        <div class="col-3 form-collabel">
+            Заголовок h3
+        </div>
+        <div class="col-9">
+            <?=$form->textField($modelLangEn,'[en]header_add', array('class' => 'form-input')); ?>
+            <div class="form-error">
+                <?=$form->error($modelLangEn,'[en]header_add');?>
+            </div>
+        </div>
+    </div>
+<? endif ; ?>
+
 <? foreach($contents as $content) : ?>
     <div class="row form-group">
         <div class="col-3 form-collabel">
-            Блок <?=$content->alias;?>
+            Блок <b><?=$content->alias;?></b>
+            <br/>
+            <?=CHtml::link(Yii::t('app', 'Удалить'), "#", array(
+                'submit' => $this->createUrl('default/deleteContent', array('id' => $content->id)),
+                'params' => array('YII_CSRF_TOKEN' => Yii::app()->request->csrfToken),
+                'confirm' => Yii::t('app', 'Удалить? Будут также удалены все имеющиеся переводы данного блока'),
+                'onclick' => 'onDeleteContent()'));
+            ?>
         </div>
         <div class="col-9 form-collabel">
             <?php $this->widget('application.extensions.ckeditor.ECKEditor', array(

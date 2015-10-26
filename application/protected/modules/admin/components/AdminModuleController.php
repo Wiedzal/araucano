@@ -24,7 +24,7 @@ class AdminModuleController extends Controller
     
     public function init()
     {
-        //$this->checkAccess('Admin');
+        $this->checkAccess('Admin');
         $this->layout = '//admin/layouts/l_column';
         
         parent::init();

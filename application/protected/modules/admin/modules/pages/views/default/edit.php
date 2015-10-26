@@ -20,44 +20,46 @@
 	<div class="col-9"><?=$model->alias; ?></div>
 </div>
 
-<div class="row form-group">
-    <div class="col-3 form-collabel">
-        Фоновое изображение
-        <h6 class="form-info text-gray"><?=Yii::t('app', 'Максимальный размер 5MB')?></h6>
-    </div>
-    <div class="col-9 form-collabel">
-        <? if($model->imageUrl) : ?>
-            <div class="mb20">
-                <?=CHtml::link(CHtml::image($model->imageThumbUrl, ''), $model->imageUrl); ?>
-                <br/>
-                <?=CHtml::link(Yii::t('app', 'Изменить'), 'javascript:void(0)', array('id' => 'link-change'))?>
-                
-                <?=CHtml::link(Yii::t('app', 'Удалить'), "#", array(
-                    'submit' => $this->createUrl('default/deletePicture', array('id' => $model->id)),
-                    'params' => array('YII_CSRF_TOKEN' => Yii::app()->request->csrfToken),
-                    'confirm' => Yii::t('app', 'Удалить изображение?'),
-                    'onclick' => 'onPictureDelete()'));
-                ?>
-            </div>
-        <? else : ?>
-            <div id="image-is-miss">
-                <?=Yii::t('app', 'Отсутствует')?><br/>
-                <?=CHtml::link(Yii::t('app', 'Изменить'), 'javascript:void(0)', array('id' => 'link-change'))?>
-            </div>
-        <? endif ; ?>
-        <div class="input-file" style="display:none" id="form-block">
-            <input id="image-field" type="text" class="form-input" placeholder="<?=Yii::t('app', 'Файл не выбран')?>" readonly />
-            <button class="btn"><?=Yii::t('app', 'Обзор')?></button>
-            <?=$form->fileField($model, 'image', array('class'=>'none'))?>
-            <h6 class="form-info">
-                <?=CHtml::link(Yii::t('app', 'Отмена'), 'javascript:void(0)', array('id'=>'link-cancel'))?>
-            </h6>
+<? if($model->is_background) : ?>
+    <div class="row form-group">
+        <div class="col-3 form-collabel">
+            Фоновое изображение
+            <h6 class="form-info text-gray"><?=Yii::t('app', 'Максимальный размер 5MB')?></h6>
         </div>
-        <div class="form-error">
-            <?=$form->error($model,'image',array('id'=>'image-error'));?>
+        <div class="col-9 form-collabel">
+            <? if($model->imageUrl) : ?>
+                <div class="mb20">
+                    <?=CHtml::link(CHtml::image($model->imageThumbUrl, ''), $model->imageUrl); ?>
+                    <br/>
+                    <?=CHtml::link(Yii::t('app', 'Изменить'), 'javascript:void(0)', array('id' => 'link-change'))?>
+                    
+                    <?=CHtml::link(Yii::t('app', 'Удалить'), "#", array(
+                        'submit' => $this->createUrl('default/deletePicture', array('id' => $model->id)),
+                        'params' => array('YII_CSRF_TOKEN' => Yii::app()->request->csrfToken),
+                        'confirm' => Yii::t('app', 'Удалить изображение?'),
+                        'onclick' => 'onPictureDelete()'));
+                    ?>
+                </div>
+            <? else : ?>
+                <div id="image-is-miss">
+                    <?=Yii::t('app', 'Отсутствует')?><br/>
+                    <?=CHtml::link(Yii::t('app', 'Изменить'), 'javascript:void(0)', array('id' => 'link-change'))?>
+                </div>
+            <? endif ; ?>
+            <div class="input-file" style="display:none" id="form-block">
+                <input id="image-field" type="text" class="form-input" placeholder="<?=Yii::t('app', 'Файл не выбран')?>" readonly />
+                <button class="btn"><?=Yii::t('app', 'Обзор')?></button>
+                <?=$form->fileField($model, 'image', array('class'=>'none'))?>
+                <h6 class="form-info">
+                    <?=CHtml::link(Yii::t('app', 'Отмена'), 'javascript:void(0)', array('id'=>'link-cancel'))?>
+                </h6>
+            </div>
+            <div class="form-error">
+                <?=$form->error($model,'image',array('id'=>'image-error'));?>
+            </div>
         </div>
     </div>
-</div>
+<? endif ; ?>
 
 <ul class="acc">
 	<li class="acc-item">
@@ -98,7 +100,7 @@
 <?php $this->endWidget(); ?>
 
 <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog w500">
+	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
 				<div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
@@ -113,30 +115,32 @@
                         Псевдоним
                     </div>
                     <div class="col-9">
-                        <?=$form->textField($content,'alias', array('class' => 'form-input')); ?>
+                        <?=$form->textField($textBlock,'alias', array('class' => 'form-input')); ?>
                         <div class="form-error">
-                            <?=$form->error($content,'alias');?>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-3 form-collabel">
+                        Текст
+                    </div>
+                    <div class="col-9 form-collabel">
+                        <?php $this->widget('application.extensions.ckeditor.ECKEditor', array(
+                            'model'=>$textBlockLang,
+                            'attribute' => 'text',
+                            'language' => 'ru',
+                            'editorTemplate' => 'full',
+                            'height' => '300px'));?>
+                        <div class="form-error">
+                            
                         </div>
                     </div>
                 </div>
 			</div>
 			<div class="modal-footer text-right">
-				<?php echo CHtml::ajaxSubmitButton('Отправить запрос',
-                        CHtml::normalizeUrl(array('/admin/pages/default/addContent')), 
-                        array('success'=>'function(json){'
-                            . 'if(!jQuery.isEmptyObject(json)) {
-                                $(".text-error").html("");
-                                $.each(json, function(arrayID,el) {
-                                    $("#"+arrayID).next(".text-error").html("Ошибка! "+el[0]);
-                                    
-                                    });
-                                 
-                                }
-                            else {$("#popup").modal("hide"); $("#popup2").modal("show");}}', 'fail' => 'function(){alert("error") }'),
-                        array('name' => 'callback', 'class' => 'btn btn-red')
-                ); ?>
+				<?=CHtml::submitButton('Создать', array('class'=>'btn btn-success ajax-btn')); ?>
 				<span class="btn btn-error" data-dismiss="modal">Отмена</span>
-				<input type="hidden" name="delete" value="delete" />
                 <?=$form->hiddenField($model, 'id');?>
 			</div>
 			<?php $this->endWidget(); ?>

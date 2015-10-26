@@ -22,6 +22,10 @@ class DefaultController extends AdminModuleController
     
     public function actionEdit($id)
     {
+        if($id == 6)
+        {
+            die('В разработке');
+        }
         $this->pageTitle = Yii::t('app', 'Редактирование страницы');
 
         $model = Pages::model()->findByPk($id);
@@ -41,6 +45,7 @@ class DefaultController extends AdminModuleController
 
         $contents = Contents::model()->findAll('page_id=:page_id', array('page_id'=>$id));
         
+        
         //var_dump($contents);die;
         //var_dump($modelLangRu);
         //var_dump($modelLangEs);
@@ -50,7 +55,10 @@ class DefaultController extends AdminModuleController
         if (!empty($_POST) && array_key_exists('PagesLang', $_POST))
         {
             //var_dump($_POST['ContentsLang']['home']['ru']);die;
-            $model->attributes = $_POST['Pages'];
+            if (array_key_exists('Pages', $_POST))
+            {
+                $model->attributes = $_POST['Pages'];
+            }
             
             $modelLangRu->attributes = $_POST['PagesLang']['ru'];
             $modelLangEs->attributes = $_POST['PagesLang']['es'];
@@ -122,83 +130,131 @@ class DefaultController extends AdminModuleController
             'modelLangEs' => $modelLangEs,
             'modelLangEn' => $modelLangEn,
             'contents' => $contents,
-            'content' => $content,
-            'contentLang' => $contentLang,
+            'textBlock' => $content,
+            'textBlockLang' => $contentLang,
         ));
     }
     
     public function actionAddContent()
 	{
+        $langs = Yii::app()->params['translatedLanguages'];
+        //var_dump($langs);die;
+        
         if (Yii::app()->request->isPostRequest)
         {
-            var_dump($_POST);die;
-            $model = new Contents();           
-            $modelLang = new ContentsLang();  
-           
-            $model->attributes = $_POST['Contents'] ;
-            $modelLang->attributes = $_POST['ContentsLang'] ;
+            //var_dump($_POST);die;
             
-            if(!$modelLang->validate())
+            $page_id = Yii::app()->request->getPost('page_id');
+            $text = Yii::app()->request->getPost('text');
+            $alias = Yii::app()->request->getPost('alias');
+             
+            if(!$page_id || !$alias)
             {
-                echo CActiveForm::validate($modelLang);
+                echo CJSON::encode(array('error'=>'Ошибка запроса. Обновите страницу и попробуйте ещё раз.'));
                 Yii::app()->end();
             }
-           else
-           {
-            require_once(Yii::getPathOfAlias('application.extensions') . '/class.phpmailer.php');
+            
+            $model = new Contents();  
+            
+            $model->alias = $alias;
+            $model->page_id = $page_id;
+
+            if(!$model->validate())
+            {
+                echo CActiveForm::validate($model);
+                Yii::app()->end();
+            }
+            else
+            {
+                $transaction = Yii::app()->db->beginTransaction();
                 
-                $mail = new PHPMailer(true);                 
-                $mail->CharSet = 'utf-8';                
-                $mail->AddAddress(trim(Yii::app()->controller->module->params->support_email));                
-                $mail->SetFrom($model->email);                
-                $mail->Subject = 'Поступила заявка на звонок';                
-                $letter = $this->renderPartial('callback', array('model'=>$model), TRUE);                
-                $mail->MsgHTML($letter);
-                
-                $mail2 = new PHPMailer(true);                 
-                $mail2->CharSet = 'utf-8';                
-                $mail2->AddAddress($model->email);                
-                $mail2->SetFrom(trim(Yii::app()->controller->module->params->support_email));                
-                $mail2->Subject = 'Ваша заявка на звонок принята';                
-                $letter2 = $this->renderPartial('callback_user', array('model'=>$model), TRUE);                
-                $mail2->MsgHTML($letter2);
-                
-                if(!$mail->Send() || !$mail2->Send())
+                try 
                 {
-                    echo array('error' => 'ошибка отправки письма');
+                    if(!$model->save())
+                    {
+                        throw new Exception('Ошибка при сохранении данных.');
+                    }
+                    
+                    foreach($langs as $lang => $value)
+                    {
+                        $modelLang = new ContentsLang();
+                        
+                        $modelLang->text = $text;
+                        $modelLang->lang = $lang;
+                        $modelLang->content_id = $model->id;
+                        
+                        if(!$modelLang->save())
+                        {
+                            throw new Exception('Ошибка при сохранении данных.');
+                        }
+                    }
+
+                    $transaction->commit();
+                }
+                catch(Exception $e) 
+                {
+                    $transaction->rollBack();
+                    echo CJSON::encode(array('error'=>$e->getMessage()));
                     Yii::app()->end();
                 }
-                else
-                {
-                    echo CActiveForm::validate($model);
-                    Yii::app()->end();
-                }
-       
-           }
-         
-           
+            }
+            
+            echo CJSON::encode(array());
+            Yii::app()->end();
         }
         
-        
-        
+	}
+
+    public function actionDeleteContent($id)
+    {
         if(Yii::app()->request->isPostRequest)
         {            
             if ((isset($_POST['YII_CSRF_TOKEN'])) && ($_POST['YII_CSRF_TOKEN'] === Yii::app()->request->csrfToken))
             {
-                $model = Pages::model()->findByPk($id);
-                $model->imageBehavior->deleteFile();
-                $model->image = null;
-                $model->save();
+                $model = Contents::model()->findByPk($id);
                 
-                $this->redirect($this->createUrl('default/edit/id/' . $id));    
+                $page_id = $model->page_id;
+                
+                $transaction = Yii::app()->db->beginTransaction();
+                try 
+                {
+                    if(!$model->delete())
+                    {
+                        throw new Exception('Ошибка при сохранении данных.');
+                    }
+                    
+                    $criteria = new CDbCriteria;
+                    $criteria->condition = 'content_id=:content_id';
+                    $criteria->params = array(
+                        'content_id' => $id, 
+                    );
+
+                    $builder = new CDbCommandBuilder(Yii::app()->db->getSchema());
+                    $command = $builder->createDeleteCommand('contents_lang', $criteria);
+
+                    if($command->execute() === false)
+                    {
+                        throw new Exception('Ошибка при сохранении данных.');
+                    }
+
+                    $transaction->commit();
+                }
+                catch(Exception $e) 
+                {
+                    $transaction->rollBack();
+                    echo CJSON::encode(array('error'=>$e->getMessage()));
+                    Yii::app()->end();
+                }
+                
+                $this->redirect($this->createUrl('default/edit/id/' . $page_id));
             }            
         }
         else
         {
             throw new CHttpException(400,'Invalid request. Please do not repeat this request again.');
         }
-	}
-
+    }  
+    
     public function actionDeletePicture($id)
     {
         if(Yii::app()->request->isPostRequest)

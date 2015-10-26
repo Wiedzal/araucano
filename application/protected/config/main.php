@@ -57,7 +57,7 @@ return array(
             'packages' => array(
                'jquery' => array(
                     'baseUrl' => '/js/jquery',
-                    'js' => array('jquery-1.11.2.min.js'),
+                    'js' => array('jquery-1.9.1.min.js'),
                 ),
                 'jquery.formstyler' => array(
                     'baseUrl' => 'js/jquery.formstyler',

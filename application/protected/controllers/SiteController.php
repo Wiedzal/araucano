@@ -52,40 +52,60 @@ class SiteController extends Controller
     {
         // renders the view file 'protected/views/site/index.php'
         // using the default layout 'protected/views/layouts/main.php'
-        $this->pageTitle = Yii::t('app', 'Наша история');
+        $page = Pages::model()->find('alias=:alias', array('alias'=>'about'));
         
+        $this->pageTitle = $page->lang->title ? $page->lang->title : Yii::t('app', 'Наша история');
+        
+        $this->pageDescription = $page->lang->meta_description;
+        $this->pageKeywords = $page->lang->meta_keywords;
+
         $this->layout = 'home';
-        $this->render('about');
+        $this->render('about', array('page'=>$page));
     }
     
     public function actionActivities()
     {
         // renders the view file 'protected/views/site/index.php'
         // using the default layout 'protected/views/layouts/main.php'
-        $this->pageTitle = Yii::t('app', 'Активности');
+        $page = Pages::model()->find('alias=:alias', array('alias'=>'activities'));
+        
+        $this->pageTitle = $page->lang->title ? $page->lang->title : Yii::t('app', 'Активности');
+        
+        $this->pageDescription = $page->lang->meta_description;
+        $this->pageKeywords = $page->lang->meta_keywords;
         
         $this->layout = 'home';
-        $this->render('activities');
+        $this->render('activities', array('page'=>$page));
     }
     
     public function actionSolutions()
     {
         // renders the view file 'protected/views/site/index.php'
         // using the default layout 'protected/views/layouts/main.php'
-        $this->pageTitle = Yii::t('app', 'Активности');
+        $page = Pages::model()->find('alias=:alias', array('alias'=>'solitions'));
+        
+        $this->pageTitle = $page->lang->title ? $page->lang->title : Yii::t('app', 'Решения');
+        
+        $this->pageDescription = $page->lang->meta_description;
+        $this->pageKeywords = $page->lang->meta_keywords;
         
         $this->layout = 'home';
-        $this->render('solutions');
+        $this->render('solutions', array('page'=>$page));
     }
 
     public function actionTechnologies()
     {
         // renders the view file 'protected/views/site/index.php'
         // using the default layout 'protected/views/layouts/main.php'
-        $this->pageTitle = Yii::t('app', 'Технологии');
+        $page = Pages::model()->find('alias=:alias', array('alias'=>'technologies'));
+        
+        $this->pageTitle = $page->lang->title ? $page->lang->title : Yii::t('app', 'Технологии');
+        
+        $this->pageDescription = $page->lang->meta_description;
+        $this->pageKeywords = $page->lang->meta_keywords;
         
         $this->layout = 'home';
-        $this->render('technologies');
+        $this->render('technologies', array('page'=>$page));
     }
     
     /**

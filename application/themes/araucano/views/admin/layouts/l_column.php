@@ -30,14 +30,14 @@
         <div class="row">
             <div class="col-6">
                 <div class="header-title">
-                    <a href="<?=Yii::app()->createUrl('/admin')?>"><span><?=Yii::app()->name?></span> панель управления</a>
+                    <a href="<?=Yii::app()->createUrl('/admin')?>"><span><?=Yii::app()->name?></span> Панель управления</a>
                 </div>
             </div>
             <div class="col-6 text-right">
                 <div class="header-user">
                     Добро пожаловать, 
                     <div class="header-dropdown">
-                        <a href="javascript:void(0)"><?=Yii::app()->user->username?></a>
+                        <?=Yii::app()->user->username?>
                     </div>
                 </div>
                 <div class="header-nav">
