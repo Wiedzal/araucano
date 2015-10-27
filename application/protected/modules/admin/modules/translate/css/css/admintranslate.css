@@ -1,0 +1,19 @@
+.ui-widget { font-size: 0.9em !important}
+.ui-accordion .ui-accordion-content { height: 155px; }
+
+span.no-translate { background: url("../img/icons/status-offline.png") 5px 2px no-repeat; padding-left: 22px; padding-bottom: 5px; font-size: 12px; font-style: normal; }
+span.translate { background: url("../img/icons/status.png") 5px 2px no-repeat; padding-left: 22px; padding-bottom: 5px; font-size: 12px; font-style: normal; }
+
+div.original-text { width: 90%; height: 100px; max-height: 100px; border: 1px solid black; border-radius: 5px; padding: 5px 10px 5px 15px; overflow: auto; }
+div.original-context { width: 90%; height: 60px; border: 1px solid black; border-radius: 5px; overflow: auto; }
+
+div.form-translate { display: none; }
+
+span.translate-text { display: none; }
+
+div.modal-context-wrapper { display: none; }
+div.modal-context-options { font-size: 12px; }
+
+table.translate-table tr:hover td  { background: #D2FFD9; }
+
+.form-translate-accordion { margin-top: 20px; }

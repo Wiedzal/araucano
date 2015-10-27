@@ -34,7 +34,7 @@ return array(
         'admin' => array(
             //'class' => 'application.modules.admin.AdminModule',
             'modules' => array(
-                'pages',
+                'translate',
             )
         ),
         'shop' => array(
@@ -51,6 +51,12 @@ return array(
         'authManager'=>array(
             'class' => 'CDbAuthManager',
             'connectionID' => 'db',
+        ), 
+        
+        'messages' => array(
+            'class' =>'PhpMessageSource',
+            'forceTranslation'  => TRUE,
+            'onMissingTranslation' => array('Translation', 'handleMissingTranslation')
         ), 
         
         'clientScript' => array(
@@ -155,6 +161,7 @@ return array(
     // using Yii::app()->params['paramName']
     
     'language'=>'ru',
+    'sourceLanguage'=>'ru',
     
     'params' => array(
         // this is used in contact page

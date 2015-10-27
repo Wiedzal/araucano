@@ -7795,3 +7795,1742 @@ REQUEST_URI=/js/jquery/jquery.min.map
 2015/10/27 02:49:36 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Pages".
 in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\DefaultController.php (60)
 in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 03:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "analysis.php".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('analysis.php')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/analysis.php
+HTTP_REFERER=http://araucano.loc/
+---
+2015/10/27 03:57:36 [warning] [application] Не удалось присвоить небезопасный атрибут "id" класса "PagesLang".
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\models\Pages.php (149)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\DefaultController.php (39)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 03:57:36 [warning] [application] Не удалось присвоить небезопасный атрибут "id" класса "PagesLang".
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\models\Pages.php (149)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\DefaultController.php (40)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 04:03:54 [warning] [application] Не удалось присвоить небезопасный атрибут "id" класса "PagesLang".
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\models\Pages.php (149)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\DefaultController.php (39)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 04:03:54 [warning] [application] Не удалось присвоить небезопасный атрибут "id" класса "PagesLang".
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\models\Pages.php (149)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\DefaultController.php (40)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 04:04:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('<')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/%3C?=Yii::app()-%3EcreateUrl(%27/pricing/free%27)?%3E
+HTTP_REFERER=http://araucano.loc/en/pricing
+---
+2015/10/27 04:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('<')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/%3C?=Yii::app()-%3EcreateUrl(%27/pricing/free%27)?%3E
+HTTP_REFERER=http://araucano.loc/en/pricing
+---
+2015/10/27 04:07:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('<')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/%3C?=Yii::app()-%3EcreateUrl(%27/pricing/free%27)?%3E
+HTTP_REFERER=http://araucano.loc/en/pricing
+---
+2015/10/27 04:08:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:08:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:08:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:08:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:09:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 04:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 20:32:26 [error] [php] include(UTIMissingTranslationEvent.php): failed to open stream: No such file or directory (C:\OpenServer\domains\araucano.loc\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(59): spl_autoload_call()
+#1 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(16): PhpMessageSource->translateMessage()
+#2 C:\OpenServer\domains\araucano.loc\framework\YiiBase.php(584): PhpMessageSource->translate()
+#3 C:\OpenServer\domains\araucano.loc\application\themes\araucano\views\site\index.php(20): t()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(126): require()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): SiteController->renderFile()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): SiteController->renderPartial()
+#8 C:\OpenServer\domains\araucano.loc\application\protected\controllers\SiteController.php(48): SiteController->render()
+#9 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php (59)
+in C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php (16)
+in C:\OpenServer\domains\araucano.loc\application\themes\araucano\views\site\index.php (20)
+2015/10/27 20:33:00 [error] [php] include(Translate.php): failed to open stream: No such file or directory (C:\OpenServer\domains\araucano.loc\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\application\protected\components\Translation.php(7): spl_autoload_call()
+#1 unknown(0): handleMissingTranslation()
+#2 C:\OpenServer\domains\araucano.loc\framework\base\CComponent.php(559): call_user_func()
+#3 C:\OpenServer\domains\araucano.loc\framework\i18n\CMessageSource.php(125): PhpMessageSource->raiseEvent()
+#4 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(60): PhpMessageSource->onMissingTranslation()
+#5 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(16): PhpMessageSource->translateMessage()
+#6 C:\OpenServer\domains\araucano.loc\framework\YiiBase.php(584): PhpMessageSource->translate()
+#7 C:\OpenServer\domains\araucano.loc\application\themes\araucano\views\site\index.php(20): t()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(126): require()
+#9 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#10 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): SiteController->renderFile()
+#11 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): SiteController->renderPartial()
+#12 C:\OpenServer\domains\araucano.loc\application\protected\controllers\SiteController.php(48): SiteController->render()
+#13 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): SiteController->runAction()
+#16 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): SiteController->run()
+#18 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\araucano.loc\application\protected\components\Translation.php (7)
+in C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php (60)
+in C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php (16)
+2015/10/27 20:33:50 [error] [php] include(UTIActiveRecord.php): failed to open stream: No such file or directory (C:\OpenServer\domains\araucano.loc\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\application\protected\models\Translate.php(23): spl_autoload_call()
+#1 C:\OpenServer\domains\araucano.loc\framework\YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 C:\OpenServer\domains\araucano.loc\application\protected\components\Translation.php(7): spl_autoload_call()
+#4 unknown(0): handleMissingTranslation()
+#5 C:\OpenServer\domains\araucano.loc\framework\base\CComponent.php(559): call_user_func()
+#6 C:\OpenServer\domains\araucano.loc\framework\i18n\CMessageSource.php(125): PhpMessageSource->raiseEvent()
+#7 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(60): PhpMessageSource->onMissingTranslation()
+#8 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(16): PhpMessageSource->translateMessage()
+#9 C:\OpenServer\domains\araucano.loc\framework\YiiBase.php(584): PhpMessageSource->translate()
+#10 C:\OpenServer\domains\araucano.loc\application\themes\araucano\views\site\index.php(20): t()
+#11 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(126): require()
+#12 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#13 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): SiteController->renderFile()
+#14 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): SiteController->renderPartial()
+#15 C:\OpenServer\domains\araucano.loc\application\protected\controllers\SiteController.php(48): SiteController->render()
+#16 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): SiteController->runAction()
+#19 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#20 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): SiteController->run()
+#21 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\araucano.loc\application\protected\models\Translate.php (23)
+in C:\OpenServer\domains\araucano.loc\application\protected\components\Translation.php (7)
+in C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php (60)
+2015/10/27 20:34:08 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'araucano_loc.translate' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `translate`.
+in C:\OpenServer\domains\araucano.loc\application\protected\components\ActiveRecord.php (7)
+in C:\OpenServer\domains\araucano.loc\application\protected\components\Translation.php (7)
+in C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php (60)
+2015/10/27 20:34:08 [error] [exception.CDbException] exception 'CDbException' with message 'Таблица "translate", упомянутая в записи active record класса "Translate", не найдена в базе данных.' in C:\OpenServer\domains\araucano.loc\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Translate))
+#1 C:\OpenServer\domains\araucano.loc\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\components\ActiveRecord.php(7): CActiveRecord->__construct('insert')
+#3 C:\OpenServer\domains\araucano.loc\application\protected\components\Translation.php(7): ActiveRecord->__construct()
+#4 [internal function]: Translation::handleMissingTranslation(Object(MissingTranslationEvent))
+#5 C:\OpenServer\domains\araucano.loc\framework\base\CComponent.php(559): call_user_func(Array, Object(MissingTranslationEvent))
+#6 C:\OpenServer\domains\araucano.loc\framework\i18n\CMessageSource.php(125): CComponent->raiseEvent('onMissingTransl...', Object(MissingTranslationEvent))
+#7 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(60): CMessageSource->onMissingTranslation(Object(MissingTranslationEvent))
+#8 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(16): PhpMessageSource->translateMessage('app', '\xD0\x97\xD0\xB0\xD1\x80\xD0\xB5\xD0\xB3\xD0\xB8\xD1\x81\xD1...', 'ru', '')
+#9 C:\OpenServer\domains\araucano.loc\framework\YiiBase.php(584): PhpMessageSource->translate('app', '\xD0\x97\xD0\xB0\xD1\x80\xD0\xB5\xD0\xB3\xD0\xB8\xD1\x81\xD1...', NULL)
+#10 C:\OpenServer\domains\araucano.loc\application\themes\araucano\views\site\index.php(20): YiiBase::t('app', '\xD0\x97\xD0\xB0\xD1\x80\xD0\xB5\xD0\xB3\xD0\xB8\xD1\x81\xD1...')
+#11 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#12 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#13 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#14 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\OpenServer\domains\araucano.loc\application\protected\controllers\SiteController.php(48): CController->render('index', Array)
+#16 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#22 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#24 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://araucano.loc/es/
+---
+2015/10/27 20:59:10 [error] [php] include(UTIActiveRecord.php): failed to open stream: No such file or directory (C:\OpenServer\domains\araucano.loc\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\application\protected\models\Langs.php(23): spl_autoload_call()
+#1 C:\OpenServer\domains\araucano.loc\framework\YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 C:\OpenServer\domains\araucano.loc\application\protected\models\Translate.php(160): spl_autoload_call()
+#4 C:\OpenServer\domains\araucano.loc\application\protected\components\Translation.php(30): fileRegenerate()
+#5 unknown(0): handleMissingTranslation()
+#6 C:\OpenServer\domains\araucano.loc\framework\base\CComponent.php(559): call_user_func()
+#7 C:\OpenServer\domains\araucano.loc\framework\i18n\CMessageSource.php(125): PhpMessageSource->raiseEvent()
+#8 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(60): PhpMessageSource->onMissingTranslation()
+#9 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(16): PhpMessageSource->translateMessage()
+#10 C:\OpenServer\domains\araucano.loc\framework\YiiBase.php(584): PhpMessageSource->translate()
+#11 C:\OpenServer\domains\araucano.loc\application\themes\araucano\views\site\index.php(20): t()
+#12 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(126): require()
+#13 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#14 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): SiteController->renderFile()
+#15 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): SiteController->renderPartial()
+#16 C:\OpenServer\domains\araucano.loc\application\protected\controllers\SiteController.php(48): SiteController->render()
+#17 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#18 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): SiteController->runAction()
+#20 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#21 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): SiteController->run()
+#22 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/en/
+in C:\OpenServer\domains\araucano.loc\application\protected\models\Langs.php (23)
+in C:\OpenServer\domains\araucano.loc\application\protected\models\Translate.php (160)
+in C:\OpenServer\domains\araucano.loc\application\protected\components\Translation.php (30)
+2015/10/27 20:59:37 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "isModuleInstall".' in C:\OpenServer\domains\araucano.loc\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\application\protected\models\Langs.php(80): CComponent->__call('isModuleInstall', Array)
+#1 C:\OpenServer\domains\araucano.loc\application\protected\models\Langs.php(80): CWebApplication->isModuleInstall('Attachment')
+#2 C:\OpenServer\domains\araucano.loc\framework\db\ar\CActiveRecord.php(2387): Langs->relations()
+#3 C:\OpenServer\domains\araucano.loc\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Langs))
+#4 C:\OpenServer\domains\araucano.loc\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#5 C:\OpenServer\domains\araucano.loc\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#6 C:\OpenServer\domains\araucano.loc\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#7 C:\OpenServer\domains\araucano.loc\application\protected\models\Translate.php(160): CActiveRecord->findAll()
+#8 C:\OpenServer\domains\araucano.loc\application\protected\components\Translation.php(30): Translate::fileRegenerate()
+#9 [internal function]: Translation::handleMissingTranslation(Object(MissingTranslationEvent))
+#10 C:\OpenServer\domains\araucano.loc\framework\base\CComponent.php(559): call_user_func(Array, Object(MissingTranslationEvent))
+#11 C:\OpenServer\domains\araucano.loc\framework\i18n\CMessageSource.php(125): CComponent->raiseEvent('onMissingTransl...', Object(MissingTranslationEvent))
+#12 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(60): CMessageSource->onMissingTranslation(Object(MissingTranslationEvent))
+#13 C:\OpenServer\domains\araucano.loc\application\protected\components\PhpMessageSource.php(16): PhpMessageSource->translateMessage('app', '\xD0\x97\xD0\xB0\xD1\x80\xD0\xB5\xD0\xB3\xD0\xB8\xD1\x81\xD1...', 'en', '')
+#14 C:\OpenServer\domains\araucano.loc\framework\YiiBase.php(584): PhpMessageSource->translate('app', '\xD0\x97\xD0\xB0\xD1\x80\xD0\xB5\xD0\xB3\xD0\xB8\xD1\x81\xD1...', NULL)
+#15 C:\OpenServer\domains\araucano.loc\application\themes\araucano\views\site\index.php(20): YiiBase::t('app', '\xD0\x97\xD0\xB0\xD1\x80\xD0\xB5\xD0\xB3\xD0\xB8\xD1\x81\xD1...')
+#16 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(126): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\araucano.loc\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\OpenServer\\d...', Array, true)
+#18 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): CBaseController->renderFile('C:\\OpenServer\\d...', Array, true)
+#19 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\OpenServer\domains\araucano.loc\application\protected\controllers\SiteController.php(48): CController->render('index', Array)
+#21 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#22 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#24 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('index')
+#26 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#27 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#29 {main}
+REQUEST_URI=/en/
+---
+2015/10/27 21:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "themes/araucano/public/site/plugins/font-awesome/css/font-awesome.min.css".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/araucano...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/araucano/public/site/plugins/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://araucano.loc/site/login
+---
+2015/10/27 21:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "themes/araucano/public/favicon.ico".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/araucano...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/araucano/public/favicon.ico
+---
+2015/10/27 21:13:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "themes/araucano/public/favicon.ico".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/araucano...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/araucano/public/favicon.ico
+---
+2015/10/27 21:13:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "themes/araucano/public/favicon.ico".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/araucano...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/araucano/public/favicon.ico
+---
+2015/10/27 21:13:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "themes/araucano/public/favicon.ico".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/araucano...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/araucano/public/favicon.ico
+---
+2015/10/27 21:59:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 21:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:30:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:35:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:35:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:36:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:36:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/pages/static".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/pages/sta...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/pages/static
+HTTP_REFERER=http://araucano.loc/admin/pages
+---
+2015/10/27 22:36:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:47:17 [error] [exception.CException] exception 'CException' with message 'Контроллер StaticController не может найти представление "index".' in C:\OpenServer\domains\araucano.loc\framework\web\CController.php:878
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php(20): CController->render('index', Array)
+#2 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/pages/sta...')
+#8 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/pages/static
+HTTP_REFERER=http://araucano.loc/admin/pages
+---
+2015/10/27 22:47:42 [error] [php] Undefined variable: filter (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php:3)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php(20): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/pages/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php (3)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php (20)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:47:55 [error] [php] Undefined variable: model (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php:15)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php(20): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/pages/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php (15)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php (20)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:48:01 [error] [php] Undefined variable: model (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php:15)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php(20): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/pages/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php (15)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php (20)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:48:27 [error] [php] Undefined variable: model (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php:15)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php(20): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/pages/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php (15)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php (20)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:48:29 [error] [php] Undefined variable: model (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php:15)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php(20): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/pages/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php (15)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php (20)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:48:31 [error] [php] Undefined variable: model (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php:15)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php(20): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/pages/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php (15)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php (20)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:48:56 [error] [php] Undefined variable: model (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php:15)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php(20): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/pages/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php (15)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php (20)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:48:58 [error] [php] Undefined variable: model (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php:15)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php(20): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/pages/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\views\static\index.php (15)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\pages\controllers\StaticController.php (20)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:56:16 [error] [exception.CException] exception 'CException' with message 'Псевдоним "pages.PagesModule" неверен. Убедитесь, что он указывает на существующий PHP файл.' in C:\OpenServer\domains\araucano.loc\framework\YiiBase.php:322
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\YiiBase.php(196): YiiBase::import('pages.PagesModu...', true)
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CModule.php(284): YiiBase::createComponent('pages.PagesModu...', 'admin/pages', Object(AdminModule), Array)
+#2 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(337): CModule->getModule('pages')
+#3 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(338): CWebApplication->createController('pages/static/', Object(AdminModule))
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(276): CWebApplication->createController('admin/pages/sta...')
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/pages/sta...')
+#6 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#8 {main}
+REQUEST_URI=/admin/pages/static
+HTTP_REFERER=http://araucano.loc/admin/pages
+---
+2015/10/27 22:56:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/pages/static".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/pages/sta...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/pages/static
+HTTP_REFERER=http://araucano.loc/admin/pages
+---
+2015/10/27 22:56:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:56:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:56:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:57:20 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Pages".
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\PagesController.php (56)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:57:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:57:25 [error] [php] include(Pages.php): failed to open stream: No such file or directory (C:\OpenServer\domains\araucano.loc\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\application\protected\controllers\SiteController.php(40): spl_autoload_call()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/
+in C:\OpenServer\domains\araucano.loc\application\protected\controllers\SiteController.php (40)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:57:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:57:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:57:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:58:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:58:38 [warning] [application] Не удалось присвоить небезопасный атрибут "image" класса "Pages".
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\PagesController.php (56)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 22:58:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:58:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:58:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:59:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:59:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 22:59:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:02:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:03:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:04:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:04:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:04:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:05:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:06:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:06:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:08:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "analysis.php".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('analysis.php')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/analysis.php
+HTTP_REFERER=http://araucano.loc/en/
+---
+2015/10/27 23:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:09:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:09:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:09:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:10:30 [error] [php] Undefined variable: model (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\views\static\index.php:15)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(20): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/translate/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\views\static\index.php (15)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php (20)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 23:11:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Forbidden' in C:\OpenServer\domains\araucano.loc\application\protected\components\Controller.php:65
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(13): Controller->checkAccess()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#2 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/translate...')
+#7 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/translate/static
+HTTP_REFERER=http://araucano.loc/admin/translate/pages
+---
+2015/10/27 23:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:11:40 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "StaticController.subSession".' in C:\OpenServer\domains\araucano.loc\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(22): CComponent->__get('subSession')
+#1 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#2 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/translate...')
+#7 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/translate/static
+HTTP_REFERER=http://araucano.loc/admin/translate/pages
+---
+2015/10/27 23:12:18 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "StaticController.subSession".' in C:\OpenServer\domains\araucano.loc\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(22): CComponent->__get('subSession')
+#1 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#2 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/translate...')
+#7 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/translate/static
+HTTP_REFERER=http://araucano.loc/admin/translate/pages
+---
+2015/10/27 23:12:35 [error] [exception.CException] exception 'CException' with message 'Необходимый для отображения asset "C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\css" не существует.' in C:\OpenServer\domains\araucano.loc\framework\web\CAssetManager.php:257
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\helpers\CHtml.php(1295): CAssetManager->publish('C:\\OpenServer\\d...', false)
+#1 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(58): CHtml::asset('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/translate...')
+#8 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/translate/static
+HTTP_REFERER=http://araucano.loc/admin/translate/pages
+---
+2015/10/27 23:13:01 [error] [exception.CException] exception 'CException' with message 'В классе StaticController и его поведениях не найден метод или замыкание с именем "include_jquery".' in C:\OpenServer\domains\araucano.loc\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(60): CComponent->__call('include_jquery', Array)
+#1 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(60): StaticController->include_jquery()
+#2 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/translate...')
+#8 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/translate/static
+HTTP_REFERER=http://araucano.loc/admin/translate/pages
+---
+2015/10/27 23:13:15 [error] [php] Trying to get property of non-object (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\views\static\index.php:18)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(69): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/translate/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\views\static\index.php (18)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php (69)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 23:14:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "admin/translate".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/translate')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/translate
+---
+2015/10/27 23:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:14:20 [error] [php] Trying to get property of non-object (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\views\static\index.php:18)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(69): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/translate/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\views\static\index.php (18)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php (69)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 23:14:56 [error] [php] Trying to get property of non-object (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\views\static\index.php:18)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(69): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/translate/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\views\static\index.php (18)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php (69)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 23:15:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:16:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:24:04 [error] [php] Undefined variable: i (C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\views\static\index.php:27)
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(869): StaticController->renderFile()
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(782): StaticController->renderPartial()
+#2 C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php(69): StaticController->render()
+#3 C:\OpenServer\domains\araucano.loc\framework\web\actions\CInlineAction.php(49): StaticController->actionIndex()
+#4 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(286): StaticController->runAction()
+#6 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(265): StaticController->runActionWithFilters()
+#7 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): StaticController->run()
+#8 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\OpenServer\domains\araucano.loc\application\index.php(14): CWebApplication->run()
+REQUEST_URI=/admin/translate/static
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\views\static\index.php (27)
+in C:\OpenServer\domains\araucano.loc\application\protected\modules\admin\modules\translate\controllers\StaticController.php (69)
+in C:\OpenServer\domains\araucano.loc\application\index.php (14)
+2015/10/27 23:24:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:25:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:27:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:28:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:28:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:33:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:33:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:44:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:44:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:48:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:49:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:50:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:51:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:57:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/27 23:59:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:01:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:02:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "translate".' in C:\OpenServer\domains\araucano.loc\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(270): CController->missingAction('translate')
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('translate')
+#2 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/translate...')
+#3 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/translate/static/translate
+HTTP_REFERER=http://araucano.loc/admin/translate/static
+---
+2015/10/28 00:02:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:02:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:03:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "translate".' in C:\OpenServer\domains\araucano.loc\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(270): CController->missingAction('translate')
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('translate')
+#2 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/translate...')
+#3 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/translate/static/translate
+HTTP_REFERER=http://araucano.loc/admin/translate/static
+---
+2015/10/28 00:03:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:12:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "translate".' in C:\OpenServer\domains\araucano.loc\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(270): CController->missingAction('translate')
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('translate')
+#2 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/translate...')
+#3 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/translate/static/translate
+HTTP_REFERER=http://araucano.loc/admin/translate/static
+---
+2015/10/28 00:13:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:13:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:13:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:16:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:16:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "translate".' in C:\OpenServer\domains\araucano.loc\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CController.php(270): CController->missingAction('translate')
+#1 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(282): CController->run('translate')
+#2 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/translate...')
+#3 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/translate/static/translate
+HTTP_REFERER=http://araucano.loc/admin/translate/static
+---
+2015/10/28 00:16:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:47:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:48:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:48:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:48:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:53:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:53:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:54:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:55:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:55:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:57:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:58:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 00:59:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 01:01:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 01:03:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 01:03:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 01:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---
+2015/10/28 01:04:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery/jquery.min.map".' in C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\araucano.loc\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery/jquer...')
+#1 C:\OpenServer\domains\araucano.loc\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\araucano.loc\application\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery/jquery.min.map
+---

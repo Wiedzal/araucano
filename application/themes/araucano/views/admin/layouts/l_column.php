@@ -52,15 +52,15 @@
         <div class="left-side">
             <ul class="left-menu">
                 <li>
-                    <a href="javascript:void(0)"><i class="fa fa-fw fa-home"></i>Контент</a>
+                    <a href="javascript:void(0)"><i class="fa fa-fw fa-home"></i>Переводы</a>
                     <ul class="submenu">
                         <li>
-                            <a href="<?=Yii::app()->createUrl('/admin/pages')?>"><i class="fa fa-fw fa-files-o"></i></i>Страницы</a>
-                        </li>
-                        <!--<li>
-                            <a href="<?=Yii::app()->createUrl('/admin/login/logout')?>"><i class="fa fa-thumbs-o-up"></i></i>Наша история</a>
+                            <a href="<?=Yii::app()->createUrl('/admin/translate/pages')?>"><i class="fa fa-fw fa-files-o"></i></i>Страницы</a>
                         </li>
                         <li>
+                            <a href="<?=Yii::app()->createUrl('/admin/translate/static')?>"><i class="fa fa-fw fa-files-o"></i></i>Статичные тексты</a>
+                        </li>
+                        <!--<li>
                             <a href="<?=Yii::app()->createUrl('/admin/login/logout')?>"><i class="fa fa-thumbs-o-up"></i></i>Активности</a>
                         </li>
                         <li>
@@ -85,6 +85,7 @@
                                 'homeLink' => CHtml::link('Главная','/admin' ),
                             )); ?>
                     <? endif ?>
+                    <h1 class="page-title"><?php echo $this->pageTitle; ?></h1>
                 </div>
                 <div class="page-content">
                     <?php echo $content; ?>

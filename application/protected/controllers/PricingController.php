@@ -4,7 +4,7 @@ class PricingController extends Controller
 {
     public function init() 
     {
-        Yii::import('application.modules.admin.modules.pages.models.*');
+        Yii::import('application.modules.admin.modules.translate.models.*');
         parent::init();
     }
 

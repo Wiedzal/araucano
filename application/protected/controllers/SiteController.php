@@ -4,7 +4,7 @@ class SiteController extends Controller
 {
     public function init() 
     {
-        Yii::import('application.modules.admin.modules.pages.models.*');
+        Yii::import('application.modules.admin.modules.translate.models.*');
         parent::init();
     }
     
@@ -39,7 +39,7 @@ class SiteController extends Controller
         
         $page = Pages::model()->find('alias=:alias', array('alias'=>'home'));
         //var_dump($page->lang);die;
-        $this->pageTitle = $page->lang->title ? $page->lang->title : Yii::t('app', 'Главная');
+        $this->pageTitle = $page->lang->title ? $page->lang->title : 'Главная';
         
         $this->pageDescription = $page->lang->meta_description;
         $this->pageKeywords = $page->lang->meta_keywords;
@@ -54,7 +54,7 @@ class SiteController extends Controller
         // using the default layout 'protected/views/layouts/main.php'
         $page = Pages::model()->find('alias=:alias', array('alias'=>'about'));
         
-        $this->pageTitle = $page->lang->title ? $page->lang->title : Yii::t('app', 'Наша история');
+        $this->pageTitle = $page->lang->title ? $page->lang->title : 'Наша история';
         
         $this->pageDescription = $page->lang->meta_description;
         $this->pageKeywords = $page->lang->meta_keywords;
@@ -69,7 +69,7 @@ class SiteController extends Controller
         // using the default layout 'protected/views/layouts/main.php'
         $page = Pages::model()->find('alias=:alias', array('alias'=>'activities'));
         
-        $this->pageTitle = $page->lang->title ? $page->lang->title : Yii::t('app', 'Активности');
+        $this->pageTitle = $page->lang->title ? $page->lang->title : 'Активности';
         
         $this->pageDescription = $page->lang->meta_description;
         $this->pageKeywords = $page->lang->meta_keywords;
@@ -84,7 +84,7 @@ class SiteController extends Controller
         // using the default layout 'protected/views/layouts/main.php'
         $page = Pages::model()->find('alias=:alias', array('alias'=>'solitions'));
         
-        $this->pageTitle = $page->lang->title ? $page->lang->title : Yii::t('app', 'Решения');
+        $this->pageTitle = $page->lang->title ? $page->lang->title : 'Решения';
         
         $this->pageDescription = $page->lang->meta_description;
         $this->pageKeywords = $page->lang->meta_keywords;
@@ -99,7 +99,7 @@ class SiteController extends Controller
         // using the default layout 'protected/views/layouts/main.php'
         $page = Pages::model()->find('alias=:alias', array('alias'=>'technologies'));
         
-        $this->pageTitle = $page->lang->title ? $page->lang->title : Yii::t('app', 'Технологии');
+        $this->pageTitle = $page->lang->title ? $page->lang->title : 'Технологии';
         
         $this->pageDescription = $page->lang->meta_description;
         $this->pageKeywords = $page->lang->meta_keywords;
