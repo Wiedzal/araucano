@@ -36,9 +36,9 @@ class LoginForm extends CFormModel
 	public function attributeLabels()
 	{
 		return array(
-			'rememberMe' => Yii::t('app', 'Запомнить меня'),
-			'username' => Yii::t('app', 'Логин'),
-			'password' => Yii::t('app', 'Пароль'),
+			'rememberMe' => 'Запомнить меня',
+			'username' => 'Логин',
+			'password' => 'Пароль',
 		);
 	}
 
@@ -54,7 +54,7 @@ class LoginForm extends CFormModel
 			//var_dump($this->_identity);die;
 			if(!$this->_identity->authenticate())
 			{
-				$this->addError('password', Yii::t('app', 'Неверный логин или пароль'));
+				$this->addError('password', 'Неверный логин или пароль');
 			}
 		}
 	}
