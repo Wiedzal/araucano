@@ -9,7 +9,7 @@
 
                 <div class="logo ">
 
-                    <a href="<?=Yii::app()->createUrl('/site/index')?>"><img src="<?=Yii::app()->theme->baseUrl ?>/public/site/img/logo.png"></a>
+                    <a href="<?=Yii::app()->createUrl('/')?>"><img src="<?=Yii::app()->theme->baseUrl ?>/public/site/img/logo.png"></a>
 
                 </div>
 
@@ -27,23 +27,7 @@
 
             <nav class="nav left">
 
-                <ul class="nav-list">
-
-                    <li class="nav-item"><a href="<?=Yii::app()->createUrl('/site/index')?>" class="nav-link"><?=Yii::t('app', 'Домой')?></a></li>
-
-                    <li class="nav-item"><a href="<?=Yii::app()->createUrl('/site/about')?>" class="nav-link"><?=Yii::t('app', 'Наша история')?></a></li>
-
-                    <li class="nav-item"><a href="<?=Yii::app()->createUrl('/site/activities')?>" class="nav-link"><?=Yii::t('app', 'Активности')?></a></li>
-
-                    <li class="nav-item"><a href="<?=Yii::app()->createUrl('/pricing')?>" class="nav-link"><?=Yii::t('app', 'Версии и стоимость')?></a></li>
-
-                    <li class="nav-item"><a href="<?=Yii::app()->createUrl('/site/solutions')?>" class="nav-link"><?=Yii::t('app', 'Решения')?></a></li>
-
-                    <li class="nav-item"><a href="<?=Yii::app()->createUrl('/site/technologies')?>" class="nav-link"><?=Yii::t('app', 'Технологии')?></a></li>
-
-                </ul>
-
-                
+                <?php $this->widget('NavigationWidget', array('template' => 'index'));?>
 
             </nav>
 

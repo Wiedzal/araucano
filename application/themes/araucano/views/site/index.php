@@ -1,4 +1,5 @@
 <div class="container-fluid homepage">
+    
     <div class="row row-dh-4 banner" 
         <? if($page->image) : ?>
             style="background-image: url('<?=$page->imageUrl?>')"

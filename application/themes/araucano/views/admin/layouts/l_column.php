@@ -52,26 +52,25 @@
         <div class="left-side">
             <ul class="left-menu">
                 <li>
-                    <a href="javascript:void(0)"><i class="fa fa-fw fa-home"></i>Переводы</a>
+                    <a href="javascript:void(0)"><i class="fa fa-fw fa-home"></i>Страницы</a>
                     <ul class="submenu">
                         <li>
-                            <a href="<?=Yii::app()->createUrl('/admin/translate/pages')?>"><i class="fa fa-fw fa-files-o"></i></i>Страницы</a>
+                            <a href="<?=Yii::app()->createUrl('/admin/pages/default')?>"><i class="fa fa-fw fa-newspaper-o"></i></i>Управление</a>
                         </li>
                         <li>
-                            <a href="<?=Yii::app()->createUrl('/admin/translate/static')?>"><i class="fa fa-fw fa-files-o"></i></i>Статичные тексты</a>
+                            <a href="<?=Yii::app()->createUrl('/admin/pages/default/create')?>"><i class="fa fa-fw fa-newspaper-o"></i></i>Создание</a>
                         </li>
-                        <!--<li>
-                            <a href="<?=Yii::app()->createUrl('/admin/login/logout')?>"><i class="fa fa-thumbs-o-up"></i></i>Активности</a>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0)"><i class="fa fa-fw fa-bars"></i>Навигация</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="<?=Yii::app()->createUrl('/admin/navigation')?>"><i class="fa fa-fw fa-newspaper-o"></i></i>Верхнее меню</a>
                         </li>
                         <li>
-                            <a href="<?=Yii::app()->createUrl('/admin/login/logout')?>"><i class="fa fa-thumbs-o-up"></i></i>Версии и стоимость</a>
+                            <a href="<?=Yii::app()->createUrl('/admin/navigation/default/footer')?>"><i class="fa fa-fw fa-newspaper-o"></i></i>Нижнее меню</a>
                         </li>
-                        <li>
-                            <a href="<?=Yii::app()->createUrl('/admin/login/logout')?>"><i class="fa fa-thumbs-o-up"></i></i>Решения</a>
-                        </li>
-                        <li>
-                            <a href="<?=Yii::app()->createUrl('/admin/login/logout')?>"><i class="fa fa-thumbs-o-up"></i></i>Технологии</a>
-                        </li>-->
                     </ul>
                 </li>
             </ul>

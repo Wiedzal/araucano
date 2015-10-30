@@ -4,7 +4,6 @@ class SiteController extends Controller
 {
     public function init() 
     {
-        Yii::import('application.modules.admin.modules.translate.models.*');
         parent::init();
     }
     
@@ -36,84 +35,15 @@ class SiteController extends Controller
         // renders the view file 'protected/views/site/index.php'
         // using the default layout 'protected/views/layouts/main.php'
         //$this->pageTitle = Yii::t('app', 'Главная');
-        
-        $page = Pages::model()->find('alias=:alias', array('alias'=>'home'));
-        //var_dump($page->lang);die;
-        $this->pageTitle = $page->lang->title ? $page->lang->title : 'Главная';
-        
-        $this->pageDescription = $page->lang->meta_description;
-        $this->pageKeywords = $page->lang->meta_keywords;
-
-        $this->layout = 'home';
-        $this->render('index', array('page'=>$page));
-    }
-    
-    public function actionAbout()
-    {
-        // renders the view file 'protected/views/site/index.php'
-        // using the default layout 'protected/views/layouts/main.php'
-        $page = Pages::model()->find('alias=:alias', array('alias'=>'about'));
-        
-        $this->pageTitle = $page->lang->title ? $page->lang->title : 'Наша история';
-        
-        $this->pageDescription = $page->lang->meta_description;
-        $this->pageKeywords = $page->lang->meta_keywords;
-
-        $this->layout = 'home';
-        $this->render('about', array('page'=>$page));
-    }
-    
-    public function actionActivities()
-    {
-        // renders the view file 'protected/views/site/index.php'
-        // using the default layout 'protected/views/layouts/main.php'
-        $page = Pages::model()->find('alias=:alias', array('alias'=>'activities'));
-        
-        $this->pageTitle = $page->lang->title ? $page->lang->title : 'Активности';
-        
-        $this->pageDescription = $page->lang->meta_description;
-        $this->pageKeywords = $page->lang->meta_keywords;
-        
-        $this->layout = 'home';
-        $this->render('activities', array('page'=>$page));
-    }
-    
-    public function actionSolutions()
-    {
-        // renders the view file 'protected/views/site/index.php'
-        // using the default layout 'protected/views/layouts/main.php'
-        $page = Pages::model()->find('alias=:alias', array('alias'=>'solitions'));
-        
-        $this->pageTitle = $page->lang->title ? $page->lang->title : 'Решения';
-        
-        $this->pageDescription = $page->lang->meta_description;
-        $this->pageKeywords = $page->lang->meta_keywords;
-        
-        $this->layout = 'home';
-        $this->render('solutions', array('page'=>$page));
+        $this->render('index');
     }
 
-    public function actionTechnologies()
-    {
-        // renders the view file 'protected/views/site/index.php'
-        // using the default layout 'protected/views/layouts/main.php'
-        $page = Pages::model()->find('alias=:alias', array('alias'=>'technologies'));
-        
-        $this->pageTitle = $page->lang->title ? $page->lang->title : 'Технологии';
-        
-        $this->pageDescription = $page->lang->meta_description;
-        $this->pageKeywords = $page->lang->meta_keywords;
-        
-        $this->layout = 'home';
-        $this->render('technologies', array('page'=>$page));
-    }
-    
     /**
      * This is the action to handle external exceptions.
      */
     public function actionError()
     {
-        $this->layout = 'home';
+        $this->layout = 'tech';
         if($error = Yii::app()->errorHandler->error)
         {
             if(Yii::app()->request->isAjaxRequest)
@@ -158,7 +88,7 @@ class SiteController extends Controller
      */
     public function actionLogin()
     {
-        $this->layout = 'main';
+        $this->layout = 'common';
         $this->pageTitle = 'Авторизация';
         
         $model = new LoginForm;

@@ -1,4 +1,4 @@
-<div class="content-wrapper page-about" id="page-about">
+<div class="content-wrapper page-<?=$page->alias?>" id="page-<?=$page->alias?>">
 
 	<div class="container-fluid section-banner bottom-align" 
         <? if($page->image) : ?>

@@ -6,77 +6,7 @@
 
 			<div class="row">
 
-				<div class="col-sm-3 col-xs-6">
-
-					<ul class="footer-nav">
-
-						<li class="bold uppercase"><?=Yii::t('app', 'Первые шаги')?></li>
-
-						<li><a href="principles.php"><?=Yii::t('app', 'Принцип работы')?></a></li>
-
-						<li><a href="pricing.php"><?=Yii::t('app', 'Версии и стоимость')?></a></li>
-
-						<li><a href="register"><?=Yii::t('app', 'Регистрация')?></a></li>
-
-						<li><a href="javascript:void(0)"></a></li>
-
-					</ul>
-
-				</div>
-
-				<div class="col-sm-3 col-xs-6">
-
-					<ul class="footer-nav">
-
-						<li class="bold uppercase"><?=Yii::t('app', 'Компания')?></li>
-
-						<li><a href="about.php"><?=Yii::t('app', 'История')?></a></li>
-
-						<li><a href="activities.php"><?=Yii::t('app', 'Активности')?></a></li>
-
-						<li><a href="404.php"><?=Yii::t('app', 'Пресса')?></a></li>
-
-						<li><a href="contacts.php"><?=Yii::t('app', 'Контакты')?></a></li>
-
-					</ul>
-
-				</div>
-
-				<div class="col-sm-3 col-xs-6">
-
-					<ul class="footer-nav">
-
-						<li class="bold uppercase"><?=Yii::t('app', 'Инструменты')?></li>
-
-						<li><a href="statistics.php"><?=Yii::t('app', 'Статистика')?></a></li>
-
-						<li><a href="forecasting.php"><?=Yii::t('app', 'Прогнозирование')?></a></li>
-
-						<li><a href="analysis.php"><?=Yii::t('app', 'Перекрестный анализ')?></a></li>
-
-						<li><a href="data-enrichment.php"><?=Yii::t('app', 'Обогащение данных')?></a></li>
-
-					</ul>
-
-				</div>
-
-				<div class="col-sm-3 col-xs-6">
-
-					<ul class="footer-nav">
-
-						<li class="bold uppercase"><?=Yii::t('app', 'Помощь')?></li>
-
-						<li><a href="documentation.php"><?=Yii::t('app', 'Документация')?></a></li>
-
-						<li><a href="technical-support"><?=Yii::t('app', 'Техническая поддержка')?></a></li>
-
-						<li><a href="confidentiality-policy"><?=Yii::t('app', 'Политика конфиденциальности')?></a></li>
-
-						<li><a href="license-agreement"><?=Yii::t('app', 'Лицензионное соглашение')?></a></li>
-
-					</ul>
-
-				</div>
+            <?php $this->widget('NavigationWidget', array('template' => 'footer', 'location' => 'footer'));?>
 
 			</div>
 

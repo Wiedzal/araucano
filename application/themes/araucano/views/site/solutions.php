@@ -1,4 +1,4 @@
-<div class="content-wrapper page-solutions" id="page-solutions">
+<div class="content-wrapper page-<?=$page->alias?>" id="page-<?=$page->alias?>">
 
     <? foreach($page->contents as $content) : ?>
         <?=$content->lang->text?>

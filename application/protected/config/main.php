@@ -34,12 +34,14 @@ return array(
         'admin' => array(
             //'class' => 'application.modules.admin.AdminModule',
             'modules' => array(
-                'translate',
+                'pages',
+                'navigation',
             )
         ),
         'shop' => array(
             'class' => 'application.modules.shop.ShopModule'
         ),
+        'page',
         'importcsv'=>array(
             'path'=>'upload/importCsv/'
         ),
@@ -51,12 +53,6 @@ return array(
         'authManager'=>array(
             'class' => 'CDbAuthManager',
             'connectionID' => 'db',
-        ), 
-        
-        'messages' => array(
-            'class' =>'PhpMessageSource',
-            'forceTranslation'  => TRUE,
-            'onMissingTranslation' => array('Translation', 'handleMissingTranslation')
         ), 
         
         'clientScript' => array(
@@ -115,7 +111,7 @@ return array(
             'urlFormat' => 'path',
             'showScriptName' => false,
             'rules' => array(
-                '/' => 'site/index',
+                '/' => 'page/default/showpage',
                 '<action:(contact|login|logout)>' => 'site/<action>',
                 '<controller:\w+>/<id:\d+>'=>'<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
@@ -174,6 +170,7 @@ return array(
             'es'=>'Spanish',
         ),
         'defaultLanguage'=>'ru',
+        'errorRoute'=>'page/default/showpage'
     ),
     
     'charset' => 'utf-8',
